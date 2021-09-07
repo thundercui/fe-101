@@ -1,3 +1,4 @@
+@charset "UTF-8";
 a {
   /* outline: none; */
   text-decoration: none;
@@ -26,18 +27,40 @@ ul {
   overflow: hidden;
   margin: 0 auto;
   padding: 0;
-  width: 80vw;
+  min-width: 327px;
+  max-width: 60vw;
   list-style: none;
+}
+ul a:nth-of-type(-n+4) li::after {
+  margin-left: 0.5rem;
+  padding: 0 0.3rem 0.1rem;
+  font-size: 0.8rem;
+  border-radius: 1rem;
+  color: #fff;
+  background-color: #bed3ca;
+  content: "待上传";
+}
+ul a:last-of-type li::after {
+  margin-left: 0.5rem;
+  padding: 0 0.3rem 0.1rem;
+  font-size: 0.8rem;
+  border-radius: 1rem;
+  color: #fff;
+  background-color: #68be8d;
+  content: "NEW";
 }
 
 li {
-  display: flex;
+  display: block;
   align-items: center;
+  overflow: hidden;
   margin-top: 0.5rem;
   padding: 1.5rem;
   height: 2rem;
   font-size: 1.2rem;
   border-radius: 1rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   background-color: #ebf6f7;
 }
 li:hover {
