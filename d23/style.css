@@ -1,0 +1,170 @@
+.yuanjiao {
+  border-radius: 0.5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-bottom: 2rem;
+  background-color: #e7e7eb;
+}
+
+.sxjianju {
+  margin-top: 0.8rem;
+}
+
+.hexin {
+  margin: 0 auto;
+  width: 90vw;
+}
+.hexin h1 {
+  margin-left: 1rem;
+  text-align: center;
+  line-height: 8rem;
+}
+
+.dabiaoti {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head .zuo {
+  height: 5rem;
+  background-color: #f6bfbc;
+}
+.head .you {
+  height: 5rem;
+  background: #cc7eb1;
+}
+
+.body .zhuyao {
+  height: 48vh;
+  background-color: #a2d7dd;
+}
+.body .ciyao {
+  min-height: 15rem;
+  background-color: #deb068;
+}
+
+.foot .banquan {
+  height: 5rem;
+  background-color: #c7dc68;
+}
+
+.shange {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 0.8rem;
+}
+
+@media screen and (max-width: 800px) {
+  :root {
+    font-size: 9px;
+  }
+
+  .sg-xiao-1 {
+    grid-column: span 1;
+  }
+
+  .sg-xiao-2 {
+    grid-column: span 2;
+  }
+
+  .sg-xiao-3 {
+    grid-column: span 3;
+  }
+
+  .sg-xiao-4 {
+    grid-column: span 4;
+  }
+
+  .sg-xiao-5 {
+    grid-column: span 5;
+  }
+
+  .sg-xiao-6 {
+    grid-column: span 6;
+  }
+
+  .sg-xiao-7 {
+    grid-column: span 7;
+  }
+
+  .sg-xiao-8 {
+    grid-column: span 8;
+  }
+
+  .sg-xiao-9 {
+    grid-column: span 9;
+  }
+
+  .sg-xiao-10 {
+    grid-column: span 10;
+  }
+
+  .sg-xiao-11 {
+    grid-column: span 11;
+  }
+
+  .sg-xiao-12 {
+    grid-column: span 12;
+  }
+}
+@media screen and (min-width: 800px) {
+  :root {
+    font-size: 14px;
+  }
+
+  .sg-da-1 {
+    grid-column: span 1;
+  }
+
+  .sg-da-2 {
+    grid-column: span 2;
+  }
+
+  .sg-da-3 {
+    grid-column: span 3;
+  }
+
+  .sg-da-4 {
+    grid-column: span 4;
+  }
+
+  .sg-da-5 {
+    grid-column: span 5;
+  }
+
+  .sg-da-6 {
+    grid-column: span 6;
+  }
+
+  .sg-da-7 {
+    grid-column: span 7;
+  }
+
+  .sg-da-8 {
+    grid-column: span 8;
+  }
+
+  .sg-da-9 {
+    grid-column: span 9;
+  }
+
+  .sg-da-10 {
+    grid-column: span 10;
+  }
+
+  .sg-da-11 {
+    grid-column: span 11;
+  }
+
+  .sg-da-12 {
+    grid-column: span 12;
+  }
+}
