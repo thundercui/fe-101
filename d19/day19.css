@@ -1,11 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #302833;
+}
+
+main {
+  margin: 0 auto;
+  width: 80vw;
+}
+main .dabiaoti h1 {
+  font-size: 1.5rem;
+  color: #a99e93;
+}
+
 .dabiaoti {
-  margin: 40px auto;
+  margin: 30px auto 20px auto;
   width: fit-content;
   font-size: 40px;
   text-align: center;
 }
+
 .banner {
   position: relative;
+  overflow: hidden;
   width: 100%;
   height: 200px;
   font-size: 18px;
@@ -15,7 +36,7 @@
   top: 0;
   right: 0;
   z-index: -2;
-  background: url(https://i0.hippopx.com/photos/930/727/719/sunset-sun-evening-sky-clouds-thumb.jpg);
+  background: url("https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F0JuOo0WSEbZd5CcSaK0bpdotfcP4fsbZUkv9W5DPNGet%3D1524064213221compressflag.jpg&thumbnail=650x2147483647&quality=80&type=jpg");
   background-position: center;
   background-size: cover;
   width: 100vw;
@@ -68,7 +89,7 @@
 .banner .caidanzu .caidan1 .datu1 {
   width: 100vw;
   height: 200px;
-  background: url(https://i0.hippopx.com/photos/97/460/1006/aurora-finland-finnish-lapland-inari-thumb.jpg);
+  background: url("https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2FzOk44SbNT5XL048z8JeOP%3DFDx83TCizabWUQ7sCdRPT9o1524064213221compressflag.jpg&thumbnail=650x2147483647&quality=80&type=jpg");
   background-position: center;
   background-size: cover;
 }
@@ -76,7 +97,7 @@
   display: block;
 }
 .banner .caidanzu .caidan2 .datu2 {
-  background: url(https://i0.hippopx.com/photos/227/22/547/wave-atlantic-pacific-ocean-thumb.jpg);
+  background: url("https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2Frj%3D%3DqQ78FQ1Iz%3DZW01moky%3DbQHQdv7hjgy5EIg8AiFCHi1524064213221compressflag.jpg&thumbnail=650x2147483647&quality=80&type=jpg");
   background-position: center;
   background-size: cover;
   width: 100vw;
@@ -86,7 +107,7 @@
   display: block;
 }
 .banner .caidanzu .caidan3 .datu3 {
-  background: url(https://i0.hippopx.com/photos/170/177/150/nepal-sunrise-morning-mountains-thumb.jpg);
+  background: url("https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2FJPkt7njNzwOqnH%3DsEIbtdJOTRJF6MlmI3QRTJOmPEYkno1524064213221compressflag.jpg&thumbnail=650x2147483647&quality=80&type=jpg");
   background-position: center;
   background-size: cover;
   width: 100vw;
@@ -95,6 +116,7 @@
 .banner .caidanzu .caidan3:hover .datu3 {
   display: block;
 }
+
 .caidan-dw {
   position: relative;
 }
@@ -117,12 +139,13 @@
   border: solid 2px #000;
   box-sizing: border-box;
 }
+
 .caidanzu .caidan1:hover .fudong1 {
   right: 102%;
   visibility: visible;
 }
 .caidanzu .caidan1:hover .fudong1 .kuai {
-  background: #000 url(https://i0.hippopx.com/photos/170/177/150/nepal-sunrise-morning-mountains-thumb.jpg);
+  background: #000 url("https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F9uVxzFK2ITLKMr3I2PwAl1aZFM1YG99I0cTG8bFyQ29MC1524064213221compressflag.jpg&thumbnail=650x2147483647&quality=80&type=jpg");
   background-position: center;
   background-size: cover;
 }
@@ -139,7 +162,7 @@
   visibility: visible;
 }
 .caidanzu .caidan2:hover .fudong2 .kuai {
-  background: #000 url(https://i0.hippopx.com/photos/227/22/547/wave-atlantic-pacific-ocean-thumb.jpg);
+  background: #000 url("https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2FzciMlVnFkieBRnM3LVDp7ktwtbzA%3DFSJes4tKymuycmw81524064213221compressflag.jpg&thumbnail=650x2147483647&quality=80&type=jpg");
   background-position: center;
   background-size: cover;
 }
@@ -156,7 +179,7 @@
   visibility: visible;
 }
 .caidanzu .caidan3:hover .fudong3 .kuai {
-  background: #000 url(https://i0.hippopx.com/photos/97/460/1006/aurora-finland-finnish-lapland-inari-thumb.jpg);
+  background: #000 url("https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2FSzboZvTU05TW9Qsik05UN%3Dh%3DFGX9OPkNvVYU2mTqI1AiV1524064213221compressflag.jpg&thumbnail=650x2147483647&quality=80&type=jpg");
   background-position: center;
   background-size: cover;
 }
@@ -168,6 +191,7 @@
   background: #000;
   clip-path: polygon(0 0, 0 100%, 100% 50%);
 }
+
 .banner3 {
   position: relative;
   margin-bottom: 80px;
@@ -186,9 +210,9 @@
   display: flex;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.2);
-  transition: background-size 3s linear;
   cursor: pointer;
   flex-grow: 1;
+  transition: background-size 3s linear;
   width: 100vw;
   height: 200px;
 }
@@ -205,7 +229,7 @@
 }
 .banner3 .caidanzu .caidan:hover {
   background-position: center;
-  background-size: 120%;
+  background-size: 170%;
 }
 .banner3 .caidanzu .caidan:hover h1 {
   margin-bottom: 8px;
@@ -218,16 +242,16 @@
 }
 .banner3 .caidanzu .caidan1 {
   background-position: center;
-  background-size: 150%;
-  background-image: url(https://i0.hippopx.com/photos/62/681/212/maldives-tropics-tropical-drone-thumb.jpg);
+  background-size: 200%;
+  background-image: url("https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2FzciMlVnFkieBRnM3LVDp7ktwtbzA%3DFSJes4tKymuycmw81524064213221compressflag.jpg&thumbnail=650x2147483647&quality=80&type=jpg");
 }
 .banner3 .caidanzu .caidan2 {
   background-position: center;
-  background-size: 150%;
-  background-image: url(https://i0.hippopx.com/photos/227/22/547/wave-atlantic-pacific-ocean-thumb.jpg);
+  background-size: 200%;
+  background-image: url("https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F9uVxzFK2ITLKMr3I2PwAl1aZFM1YG99I0cTG8bFyQ29MC1524064213221compressflag.jpg&thumbnail=650x2147483647&quality=80&type=jpg");
 }
 .banner3 .caidanzu .caidan3 {
   background-position: center;
-  background-size: 150%;
-  background-image: url(https://i0.hippopx.com/photos/170/177/150/nepal-sunrise-morning-mountains-thumb.jpg);
+  background-size: 200%;
+  background-image: url("https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2FJPkt7njNzwOqnH%3DsEIbtdJOTRJF6MlmI3QRTJOmPEYkno1524064213221compressflag.jpg&thumbnail=650x2147483647&quality=80&type=jpg");
 }
